@@ -13,6 +13,8 @@
 		BF1B87D12656583A00C59268 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF1B87CF2656583A00C59268 /* Main.storyboard */; };
 		BF1B87D32656583D00C59268 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF1B87D22656583D00C59268 /* Assets.xcassets */; };
 		BF1B87D62656583D00C59268 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF1B87D42656583D00C59268 /* LaunchScreen.storyboard */; };
+		BFAA823226665D7E0023990C /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BFAA823126665D7E0023990C /* Roboto-Regular.ttf */; };
+		BFAA823526665D8D0023990C /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BFAA823426665D8D0023990C /* Roboto-Bold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		BF1B87D22656583D00C59268 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF1B87D52656583D00C59268 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF1B87D72656583D00C59268 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFAA823126665D7E0023990C /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		BFAA823426665D8D0023990C /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		BF1B87C82656583A00C59268 /* Scroll View */ = {
 			isa = PBXGroup;
 			children = (
+				BFAA822C26665D0C0023990C /* Font */,
 				BF1B87C92656583A00C59268 /* AppDelegate.swift */,
 				BF1B87CB2656583A00C59268 /* SceneDelegate.swift */,
 				BF1B87CD2656583A00C59268 /* ViewController.swift */,
@@ -65,6 +70,15 @@
 				BF1B87D72656583D00C59268 /* Info.plist */,
 			);
 			path = "Scroll View";
+			sourceTree = "<group>";
+		};
+		BFAA822C26665D0C0023990C /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				BFAA823126665D7E0023990C /* Roboto-Regular.ttf */,
+				BFAA823426665D8D0023990C /* Roboto-Bold.ttf */,
+			);
+			path = Font;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +140,8 @@
 			files = (
 				BF1B87D62656583D00C59268 /* LaunchScreen.storyboard in Resources */,
 				BF1B87D32656583D00C59268 /* Assets.xcassets in Resources */,
+				BFAA823526665D8D0023990C /* Roboto-Bold.ttf in Resources */,
+				BFAA823226665D7E0023990C /* Roboto-Regular.ttf in Resources */,
 				BF1B87D12656583A00C59268 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
